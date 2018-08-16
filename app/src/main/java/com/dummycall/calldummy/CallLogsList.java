@@ -27,17 +27,6 @@ public class CallLogsList extends AppCompatActivity {
 
     private void setCallLogItemArrayList(){
         callLogItemArrayList = new ArrayList<>();
-        /*for(int i = 1; i <= 10;i++){
-            if(i%3 == 0)
-                callLogItemArrayList.add(new CallLogItem("dialled" ,
-                        "Name:" + i , "Number:" + i , "Duration:" + i));
-            else if(i%3 == 1)
-                callLogItemArrayList.add(new CallLogItem("recieved" ,
-                        "Name:" + i , "Number:" + i , "Duration:" + i));
-            else
-                callLogItemArrayList.add(new CallLogItem("Missed" ,
-                        "Name:" + i , "Number:" + i , "Duration:" + i));
-        }*/
         Cursor cursor = getContentResolver().query(CallLog.Calls.CONTENT_URI ,
                         null ,null , null ,
                         CallLog.Calls.DATE + " DESC");

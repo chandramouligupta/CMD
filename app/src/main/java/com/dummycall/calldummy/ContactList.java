@@ -29,8 +29,6 @@ public class ContactList extends AppCompatActivity {
 
     public void getContactList(){
         contactItemsList = new ArrayList<>();
-        /*for(int i = 1;i <= 10 ; i++){
-            contactItemsList.add(new ContactItem(i , "Contact name:" + i));*/
         ContentResolver cr = getContentResolver();
         Cursor cur = cr.query(ContactsContract.Contacts.CONTENT_URI,
                 null, null, null, null);
