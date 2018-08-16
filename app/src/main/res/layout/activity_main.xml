@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_list"
+            android:text="Contact List"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/call_logs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Logs"
+            android:clickable="true"/>
+
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

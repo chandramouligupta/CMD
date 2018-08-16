@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Call Dummy</string>
+    <string name="contact_default_id">Contact Id</string>
+    <string name="contact_default_name">Contact Name</string>
+</resources>
