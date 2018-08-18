@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class CallLogItem{
-
+// edited
     private String directive;
     private String callerName;
     private String callerNumber;
